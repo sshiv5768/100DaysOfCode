@@ -4,6 +4,7 @@ using namespace std;
 
 int BinarySearch(int a[], int n, int key)
 {
+    // Starting and ending point of array.
     int start = 0;
     int end = n - 1;
 
@@ -31,7 +32,7 @@ int main()
     int n, key;
     cin >> n;
 
-    int a[1000];
+    int a[n];
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
