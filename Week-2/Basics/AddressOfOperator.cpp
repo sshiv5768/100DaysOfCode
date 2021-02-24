@@ -13,7 +13,7 @@ int main()
     // IT dosen't work for character values.
     cout << "The address of ch: " << &ch << endl;
 
-    // We can use explicit way.
+    // Explicit Typecasting char* to void*
     cout << "The address of ch: " << (void *)&ch << endl;
     return 0;
 }
