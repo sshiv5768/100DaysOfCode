@@ -5,8 +5,6 @@ using namespace std;
 
 int main()
 {
-    template <typename T>
-    ;
     list<int> l1{1, 2, 3, 4, 5};
 
     for (int i : l1)
